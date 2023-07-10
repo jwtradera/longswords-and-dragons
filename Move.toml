@@ -1,0 +1,10 @@
+[package]
+name = 'breeder'
+version = '1.0.0'
+[dependencies.AptosTokenObjects]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token-objects'
+[addresses]
+overmind = '0x1337'
+admin = '0x1337'
